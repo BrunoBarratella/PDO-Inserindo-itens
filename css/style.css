@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.containerForm {
+    background-color: #146C94;
+    width: 500px;
+    padding: 2em 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    border-radius: 12px;
+}
+
+.formContent {
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.envia{
+    background-color: #F6F1F1;
+    border-radius: 10px;
+    border:none;
+    padding: 1em 2em;
+
+}
+
+.linkLista{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 0.5em 1em;
+    width: 120px;
+    border-radius: 12px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
